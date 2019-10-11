@@ -1,0 +1,171 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    background-image: url("../musica1.jpg");
+    background-size: 100%;
+}
+
+.fundo{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+    background: rgba(0, 0, 0, .3);
+}
+div.esquerdo, div.direito  {
+    margin-top: 200px;
+    background-color: rgb(111, 0, 255);
+    
+    float: left;
+    padding: 20px;
+    background: rgba(0, 0, 0, .8);
+}
+
+.esquerdo  {
+    margin-left: 10%;
+    width: 25vw;
+    height: 50vh;
+    
+}
+
+.esquerdo_frase{
+    font-family:Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    color:white;
+    font-size: 30px;
+    margin-left: 40px;
+    
+}
+
+.esquerdo_meio{
+    font-family:Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    font-size: 20px;
+    margin-left: 10px;
+    font-weight: bold;
+    color: white;
+}
+
+.esquerdo_meio1{
+    font-family: Arial, Helvetica, sans-serif;  
+    background: none;
+    width: 350px;
+    font-weight: bold;
+    font-size: 17px;
+    margin-top: 20px;
+    color: #DC143C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo_musica{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+
+.btn_esquerdo{
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size:15px;
+    padding: 10px;
+    border-radius:5px;
+    background: none;
+    border: groove 1px;
+    color: white;
+    cursor: pointer;
+    width: 50%;
+    position: relative;
+    outline: none;
+    margin-top: 40px;
+    left: 90px;
+}
+
+button:hover{
+    background-color: rgba(255, 255, 255, 0.055);
+    transition: all .7s linear;
+}
+
+.direito  {
+    margin-left: 25%;
+    width: 25vw;
+    height: 50vh;
+}
+
+.direito_frase{
+    font-family:Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    color:white;
+    font-size: 30px;
+    margin-left: 40px;
+}
+
+.logo_musica1{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.direito_meio{
+    font-family:Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    font-size: 20px;
+    margin-left: 30px;
+    font-weight: bold;
+    color: white;
+}
+
+.direito_meio1{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background: none;
+    margin-left: 10px;
+    font-weight: bold;
+    font-size: 16px;
+    color: #DC143C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+
+.btn_direito{
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size:15px;
+    padding: 10px;
+    border-radius:5px;
+    background: none;
+    border: groove 1px;
+    color: white;
+    cursor: pointer;
+    width: 50%;
+    position: relative;
+    left: 90px;
+    outline: none;
+    margin-top: 40px;
+}
+
