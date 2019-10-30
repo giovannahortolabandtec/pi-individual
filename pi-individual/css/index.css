@@ -4,7 +4,7 @@
 }
 
 body {
-    background-image: url("../imagens/musica1.jpg");
+    background-image: url("../imagens/musica2.jpg");
     background-size: 100%;
 }
 
@@ -20,7 +20,8 @@ div.esquerdo, div.direito  {
     float: left;
     margin-top: 200px;
     padding: 20px;
-    background: rgba(0, 0, 0, .8);
+    border-radius: 10px;
+    background: rgba(0, 0, 0, .5);
 }
 
 .esquerdo  {
@@ -58,9 +59,10 @@ div.esquerdo, div.direito  {
     background: none;
     width: 350px;
     font-weight: bold;
-    font-size: 17px;
+    font-size: 14px;
     margin-top: 20px;
-    color: #DC143C;
+    /* color: #DC143C; */
+    color: #87CEFA;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -139,8 +141,9 @@ button:hover{
     background: none;
     margin-left: 10px;
     font-weight: bold;
-    font-size: 16px;
-    color: #DC143C;
+    font-size: 15px;
+    /* color: #DC143C; */
+    color: #87CEFA;
     display: flex;
     justify-content: center;
     align-items: center;
