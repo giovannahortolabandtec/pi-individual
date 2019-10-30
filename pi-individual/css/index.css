@@ -3,6 +3,20 @@
     padding: 0%;
 }
 
+ul,li{
+    list-style-type: none;
+}
+
+a:visited{
+    color: #fff;
+
+}
+
+a:link{
+    text-decoration: none;
+    color: #fff;
+}
+
 body {
     background-image: url("../imagens/musica2.jpg");
     background-size: 100%;
@@ -112,7 +126,6 @@ button:hover{
     font-weight: bold;
     color:white;
     font-size: 30px;
-    margin-left: 40px;
 }
 
 .logo_musica1{
@@ -129,7 +142,7 @@ button:hover{
     justify-content: center;
     align-items: center;
     margin-top: 40px;
-    font-size: 20px;
+    font-size: 18px;
     margin-left: 30px;
     font-weight: bold;
     color: white;
@@ -142,7 +155,7 @@ button:hover{
     margin-left: 10px;
     font-weight: bold;
     font-size: 15px;
-    /* color: #DC143C; */
+    margin-top: 40px;
     color: #87CEFA;
     display: flex;
     justify-content: center;
@@ -166,6 +179,49 @@ button:hover{
     position: relative;
     left: 90px;
     outline: none;
-    margin-top: 40px;
+    margin-top: 50px;
 }
 
+.redes{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 40px;
+    background: rgb(0, 0, 0, .5);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.redes img{
+    width: 30px;
+    height: 30px;
+    margin-right: 20px;
+}
+
+
+.navegacao{
+    position: absolute;
+    top: 40px;
+    left: 0px;
+    width: 100%;
+    height: 40px;
+    background: rgb(0, 0, 0, .3);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.navegacao ul{
+    position: relative;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.navegacao ul li{
+    margin-right: 100px;
+}
