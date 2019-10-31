@@ -9,12 +9,11 @@ ul,li{
 
 a:visited{
     color: #fff;
-
 }
 
 a:link{
     text-decoration: none;
-    color: #fff;
+    color: #87CEFA;
 }
 
 body {
@@ -75,7 +74,6 @@ div.esquerdo, div.direito  {
     font-weight: bold;
     font-size: 14px;
     margin-top: 20px;
-    /* color: #DC143C; */
     color: #87CEFA;
     display: flex;
     justify-content: center;
@@ -91,25 +89,26 @@ div.esquerdo, div.direito  {
 }
 
 .btn_esquerdo{
-    font-family:Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
-    font-size:15px;
-    padding: 10px;
-    border-radius:5px;
-    background: none;
-    border: groove 1px;
-    color: white;
-    cursor: pointer;
-    width: 50%;
     position: relative;
     outline: none;
-    margin-top: 40px;
+    border: none;
+    cursor: pointer;
+    color: white;
+    background-color: rgb(255, 255, 255, 0.055);
+    border-radius: 10px;
+    margin-right: 40px;
+    font-size:15px;
+    padding: 12px;
+    width: 50%;
     left: 90px;
+    margin-top: 40px;
 }
 
 button:hover{
-    background-color: rgba(255, 255, 255, 0.055);
-    transition: all .7s linear;
+    background-color: rgba(34, 61, 71);
+    transition: all .9s;
 }
 
 .direito  {
@@ -166,20 +165,21 @@ button:hover{
 
 
 .btn_direito{
-    font-family:Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
-    font-size:15px;
-    padding: 10px;
-    border-radius:5px;
-    background: none;
-    border: groove 1px;
-    color: white;
-    cursor: pointer;
-    width: 50%;
     position: relative;
-    left: 90px;
     outline: none;
-    margin-top: 50px;
+    border: none;
+    cursor: pointer;
+    color: white;
+    background-color: rgb(255, 255, 255, 0.055);
+    border-radius: 10px;
+    margin-right: 40px;
+    font-size:15px;
+    padding: 12px;
+    width: 50%;
+    left: 90px;
+    margin-top: 40px;
 }
 
 .redes{
@@ -220,8 +220,33 @@ button:hover{
     display: flex;
     width: 100%;
     justify-content: center;
+    font-weight: bold;
 }
 
 .navegacao ul li{
-    margin-right: 100px;
+    margin-left: 100px;
+    margin-top: 10px;
+}
+
+.btn_nav{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-left: 400px;
+}
+.btn_nav button{
+    position: relative;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    color: white;
+    background-color: rgb(34, 61, 71);
+    border-radius: 10px;
+    margin-right: 40px;
+    font-size:15px;
+    padding: 8px;
+    width: 100px;
+
 }
