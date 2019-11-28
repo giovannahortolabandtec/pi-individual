@@ -17,7 +17,7 @@ a:link{
 } */
 
 body {
-    background-image: url("../imagens/a.jpg");
+    background-image: url("../imagens/holi.jpg");
     background-size: 100%;
 }
 
@@ -82,7 +82,7 @@ div.esquerdo, div.direito  {
     align-items: center;
 }
 
-.logo_musica{
+.esquerdo_frase img{
     width: 100px;
     height: 100px;
     display: flex;
