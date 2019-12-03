@@ -1,10 +1,11 @@
-*{
-    margin: 0%;
-    padding: 0%;
+* {
+  margin: 0%;
+  padding: 0%;
 }
 
-ul,li{
-    list-style-type: none;
+ul,
+li {
+  list-style-type: none;
 }
 /* 
 a:visited{
@@ -17,241 +18,275 @@ a:link{
 } */
 
 body {
-    background-image: url("../imagens/holi.jpg");
-    background-size: 100%;
+  background-image: url("../imagens/holi.jpg");
+  background-size: 100%;
 }
 
-.fundo{
-    position: fixed;
-    width: 100%;
-    height: 100%;
-    left: 0px;
-    top: 0px;
-    background: rgba(0, 0, 0, .5);
+.fundo {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  left: 0px;
+  top: 0px;
+  background: rgba(0, 0, 0, 0.5);
 }
-div.esquerdo, div.direito  {
-    float: left;
-    margin-top: 200px;
-    padding: 20px;
-    border-radius: 20px;
-    background: rgba(0, 0, 0, .7);
-    /* background: none; */
- 
-}
-
-.esquerdo  {
-    margin-left: 11.5%;
-    width: 25vw;
-    height: 50vh;
+div.esquerdo,
+div.direito {
+  float: left;
+  margin-top: 200px;
+  padding: 20px;
+  border-radius: 20px;
+  background: rgba(0, 0, 0, 0.7);
+  /* background: none; */
 }
 
-.esquerdo_frase{
-    font-family:Arial, Helvetica, sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-weight: bold;
-    color:white;
-    font-size: 28px;
-    margin-left: 40px;
-    
+.esquerdo {
+  margin-left: 11.5%;
+  width: 25vw;
+  height: 50vh;
 }
 
-.esquerdo_meio{
-    font-family:Arial, Helvetica, sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 40px;
-    font-size: 20px;
-    margin-left: 10px;
-    font-weight: bold;
-    color: white;
+.esquerdo_frase {
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  color: white;
+  font-size: 28px;
+  margin-left: 40px;
 }
 
-.esquerdo_meio1{
-    font-family: Arial, Helvetica, sans-serif;  
-    background: none;
-    width: 350px;
-    font-weight: bold;
-    font-size: 14px;
-    margin-top: 40px;
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.esquerdo_meio {
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+  font-size: 20px;
+  margin-left: 10px;
+  font-weight: bold;
+  color: white;
 }
 
-.esquerdo_frase img{
-    width: 100px;
-    height: 100px;
-    display: flex;
-    justify-content: center;
-    align-items: center;   
+.esquerdo_meio1 {
+  font-family: Arial, Helvetica, sans-serif;
+  background: none;
+  width: 350px;
+  font-weight: bold;
+  font-size: 14px;
+  margin-top: 40px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.btn_esquerdo{
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-    position: relative;
-    outline: none;
-    border: none;
-    cursor: pointer;
-    color: white;
-    background-color: rgb(255, 255, 255, 0.055);
-    border-radius: 10px;
-    margin-right: 40px;
-    font-size:15px;
-    padding: 12px;
-    width: 50%;
-    left: 90px;
-    margin-top: 40px;
+.esquerdo_frase img {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-button:hover{
-    background-color: rgba(34, 61, 71);
-    transition: all .9s;
+.btn_esquerdo {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  position: relative;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  color: white;
+  background-color: rgb(255, 255, 255, 0.055);
+  border-radius: 10px;
+  margin-right: 40px;
+  font-size: 15px;
+  padding: 12px;
+  width: 50%;
+  left: 90px;
+  margin-top: 40px;
 }
 
-.direito  {
-    margin-left: 20%;
-    width: 25vw;
-    height: 50vh;
+button:hover {
+  background-color: rgba(34, 61, 71);
+  transition: all 0.9s;
 }
 
-.direito_frase{
-    font-family:Arial, Helvetica, sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-weight: bold;
-    color:white;
-    font-size: 28px;
+.direito {
+  margin-left: 20%;
+  width: 25vw;
+  height: 50vh;
 }
 
-.logo_musica1{
-    width: 100px;
-    height: 100px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.direito_frase {
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  color: white;
+  font-size: 28px;
 }
 
-.direito_meio{
-    font-family:Arial, Helvetica, sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 40px;
-    font-size: 18px;
-    margin-left: 6px;
-    font-weight: bold;
-    color: white;
+.logo_musica1 {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.direito_meio1{
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-    background: none;
-    font-weight: bold;
-    font-size: 15px;
-    margin-top: 40px;
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.direito_meio {
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+  font-size: 18px;
+  margin-left: 6px;
+  font-weight: bold;
+  color: white;
+}
 
+.direito_meio1 {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  background: none;
+  font-weight: bold;
+  font-size: 15px;
+  margin-top: 40px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
+.btn_direito {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  position: relative;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  color: white;
+  background-color: rgb(255, 255, 255, 0.055);
+  border-radius: 10px;
+  margin-right: 40px;
+  font-size: 15px;
+  padding: 12px;
+  width: 50%;
+  left: 90px;
+  margin-top: 40px;
+}
+
+.redes {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background: none;
+}
+
+.redes img {
+  width: 30px;
+  height: 30px;
+  margin-right: 20px;
+}
+
+.navegacao {
+  position: absolute;
+  top: 40px;
+  left: 0px;
+  width: 100%;
+  height: 40px;
+  /* background: rgb(0, 0, 0, .3); */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background: none;
+}
+
+.navegacao ul {
+  position: relative;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  font-weight: bold;
+}
+
+.navegacao ul li {
+  margin-left: 100px;
+  margin-top: 10px;
+}
+
+.btn_nav {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  /* margin-left: 400px; */
+  margin-left: 1112px;
+}
+.btn_nav button {
+  position: relative;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  color: white;
+  background-color: rgb(34, 61, 71);
+  border-radius: 10px;
+  /* margin-right: 40px; */
+  margin-right: 20px;
+  font-size: 15px;
+  padding: 8px;
+  width: 100px;
 }
 
 
-.btn_direito{
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-    position: relative;
-    outline: none;
-    border: none;
-    cursor: pointer;
-    color: white;
-    background-color: rgb(255, 255, 255, 0.055);
-    border-radius: 10px;
-    margin-right: 40px;
-    font-size:15px;
-    padding: 12px;
-    width: 50%;
-    left: 90px;
-    margin-top: 40px;
+/* LEMBRAR DE TIRAR OS COMENTARIOS */
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
 }
 
-.redes{
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    width: 100%;
-    height: 40px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    background: none;
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
 }
 
-.redes img{
-    width: 30px;
-    height: 30px;
-    margin-right: 20px;
+/* The Close Button */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
 }
 
-
-.navegacao{
-    position: absolute;
-    top: 40px;
-    left: 0px;
-    width: 100%;
-    height: 40px;
-    /* background: rgb(0, 0, 0, .3); */
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    background: none;
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
 }
-
-.navegacao ul{
-    position: relative;
-    display: flex;
-    width: 100%;
-    justify-content: center;
-    font-weight: bold;
-}
-
-.navegacao ul li{
-    margin-left: 100px;
-    margin-top: 10px;
-}
-
-.btn_nav{
-    position: relative;
-    display: flex;
-    justify-content: center;
-    /* margin-left: 400px; */
-    margin-left: 1112px;
-}
-.btn_nav button{
-    position: relative;
-    font-family:Arial, Helvetica, sans-serif;
-    font-weight: bold;
-    outline: none;
-    border: none;
-    cursor: pointer;
-    color: white;
-    background-color: rgb(34, 61, 71);
-    border-radius: 10px;
-    /* margin-right: 40px; */
-    margin-right: 20px;
-    font-size:15px;
-    padding: 8px;
-    width: 100px;
-
-}
-

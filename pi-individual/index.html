@@ -1,69 +1,114 @@
 <!DOCTYPE html>
 <html lang="pt">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="./css/index.css">
-    <link rel="icon" type="imagem/png" href="./imagens/logo1.png">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="./css/index.css">
+        <link rel="icon" type="imagem/png" href="./imagens/logo1.png">
 
-    <title>City Song - Home</title>
+        <title>City Song - Home</title>
 
-</head>
+    </head>
 
-<body>
-    <div class="fundo">
-        <div class="esquerdo">
-            <div class="esquerdo_frase">
-                <img class="logo_musica" src="./imagens/festa.png" alt="">
+    <body>
+        <div class="fundo">
+            <div class="esquerdo">
+                <div class="esquerdo_frase">
+                    <img class="logo_musica" src="./imagens/festa.png" alt="">
                 FESTIVAL PLAY
             </div>
-            <div class="esquerdo_meio">
+                <div class="esquerdo_meio">
                 Estão preparados para os melhores festivais do ano?
             </div>
-            <div class="esquerdo_meio1">
+                <div class="esquerdo_meio1">
                 TUDO QUE VOCÊ QUER, AQUI?!
             </div>
-            
-            <a href="./corpo/pagina.html"><button class="btn_esquerdo">VAMOS LÁ</button></a>
-        </div>
-        
-        <div class="direito">
-            <nav class="redes">
-               <a href="https://www.instagram.com/?hl=pt-br"><img src="./imagens/instagram.png" alt=""></a>
-               <a href="https://twitter.com/?lang=pt"><img src="./imagens/twitter.png" alt=""></a>
-               <a href="https://pt-br.facebook.com/"><img src="./imagens/facebook.png" alt=""></a>
-            </nav>
-            
-            <nav class="navegacao">
-                <ul>
-                    <div class="btn_nav">
-                       <a href="./corpo/login.html"><button onclick="entrar()">Entrar</button></a>
-                       <a href="./corpo/cadastro.html"><button onclick="cadastrar()">Cadastrar</button></a>
-                    </div>
-                </ul>
-            </nav>
-            
-            <div class="direito_frase">
-                <img class="logo_musica1" src="./imagens/logo1.png" alt="">
+
+                <a href="./corpo/pagina.html">
+                    <button class="btn_esquerdo">VAMOS LÁ</button>
+                </a>
+            </div>
+
+            <div class="direito">
+                <nav class="redes">
+                    <a href="https://www.instagram.com/?hl=pt-br"><img src="./imagens/instagram.png" alt=""></a>
+                    <a href="https://twitter.com/?lang=pt"><img src="./imagens/twitter.png" alt=""></a>
+                    <a href="https://pt-br.facebook.com/"><img src="./imagens/facebook.png" alt=""></a>
+                </nav>
+
+                <nav class="navegacao">
+                    <ul>
+                        <div class="btn_nav">
+                            <a>
+                                <button id="loginModal" onclick="entrar()">Entrar</button>
+                            </a>
+                            <a href="./corpo/cadastro.html">
+                                <button onclick="cadastrar()">Cadastrar</button>
+                            </a>
+                        </div>
+                    </ul>
+                </nav>
+
+                <div class="direito_frase">
+                    <img class="logo_musica1" src="./imagens/logo1.png" alt="">
                 SHOWS <br> PLAY
             </div>
-            <div class="direito_meio">
+                <div class="direito_meio">
                 Preços de ingressos inacreditáveis
                 
             </div>
-            <div class="direito_meio1">
+                <div class="direito_meio1">
                 GARANTA JÁ O SEU
             </div>
 
-            <a href=""><button class="btn_direito">GARANTIR</button></a>
+                <a href="">
+                    <button class="btn_direito">GARANTIR</button>
+                </a>
+            </div>
+
         </div>
 
+        <!-- Aqui começa o modal -->
 
-    </div>
+        <div id="myModal1" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                Login: <input id="userLogin">
+            </div>
+        </div>
 
+        <!-- Aqui já terminou o modal -->
 
-</body>
+        <script>
+            // Get the modal
+            var modal = document.getElementById("myModal1");
+
+            // Get the button that opens the modal
+            var btn = document.getElementById("loginModal");
+
+            // Get the <span> element that closes the modal
+            var span = document.getElementsByClassName("close")[0];
+
+            // When the user clicks on the button, open the modal
+            btn.onclick = function () {
+                modal.style.display = "block";
+            }
+
+            // When the user clicks on <span> (x), close the modal
+            span.onclick = function () {
+                modal.style.display = "none";
+            }
+
+            // When the user clicks anywhere outside of the modal, close it
+            window.onclick = function (event) {
+                if (event.target == modal) {
+                    modal.style.display = "none";
+                }
+            }
+        </script>
+
+    </body>
 
 </html>
