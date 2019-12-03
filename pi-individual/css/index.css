@@ -7,15 +7,6 @@ ul,
 li {
   list-style-type: none;
 }
-/* 
-a:visited{
-    color: #fff;
-}
-
-a:link{
-    text-decoration: none;
-    color: white;
-} */
 
 body {
   background-image: url("../imagens/holi.jpg");
@@ -28,15 +19,15 @@ body {
   height: 100%;
   left: 0px;
   top: 0px;
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0.6);
 }
 div.esquerdo,
 div.direito {
   float: left;
-  margin-top: 200px;
+  margin-top: 175px;
   padding: 20px;
   border-radius: 20px;
-  background: rgba(0, 0, 0, 0.7);
+  background: rgba(255, 255, 255, 0);
   /* background: none; */
 }
 
@@ -64,7 +55,7 @@ div.direito {
   align-items: center;
   margin-top: 40px;
   font-size: 20px;
-  margin-left: 10px;
+  margin-left: 45px;
   font-weight: bold;
   color: white;
 }
@@ -95,11 +86,11 @@ div.direito {
   font-weight: bold;
   position: relative;
   outline: none;
-  border: none;
   cursor: pointer;
   color: white;
   background-color: rgb(255, 255, 255, 0.055);
   border-radius: 10px;
+  border: 1px solid white;
   margin-right: 40px;
   font-size: 15px;
   padding: 12px;
@@ -109,8 +100,8 @@ div.direito {
 }
 
 button:hover {
-  background-color: rgba(34, 61, 71);
-  transition: all 0.9s;
+  background-color: rgba(217, 128, 250, .2);
+  transition: all 1.0s;
 }
 
 .direito {
@@ -127,6 +118,7 @@ button:hover {
   font-weight: bold;
   color: white;
   font-size: 28px;
+  margin-left: -10px;
 }
 
 .logo_musica1 {
@@ -171,6 +163,7 @@ button:hover {
   cursor: pointer;
   color: white;
   background-color: rgb(255, 255, 255, 0.055);
+  border: 1px solid white;
   border-radius: 10px;
   margin-right: 40px;
   font-size: 15px;
@@ -185,7 +178,7 @@ button:hover {
   top: 0px;
   left: 0px;
   width: 100%;
-  height: 40px;
+  height: 60px;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -194,8 +187,8 @@ button:hover {
 }
 
 .redes img {
-  width: 30px;
-  height: 30px;
+  width: 35px;
+  height: 35px;
   margin-right: 20px;
 }
 
@@ -230,7 +223,6 @@ button:hover {
   position: relative;
   display: flex;
   justify-content: center;
-  /* margin-left: 400px; */
   margin-left: 1112px;
 }
 .btn_nav button {
@@ -241,19 +233,17 @@ button:hover {
   border: none;
   cursor: pointer;
   color: white;
-  background-color: rgb(34, 61, 71);
+  background-color: rgba(214, 84, 231, 0.055);
+  border: 1px solid white;
   border-radius: 10px;
-  /* margin-right: 40px; */
-  margin-right: 20px;
+  margin-right: 40px;
   font-size: 15px;
-  padding: 8px;
+  padding: 10px;
   width: 100px;
 }
 
 
 /* LEMBRAR DE TIRAR OS COMENTARIOS */
-
-/* The Modal (background) */
 .modal {
   display: none; /* Hidden by default */
   position: fixed; /* Stay in place */
@@ -263,22 +253,22 @@ button:hover {
   width: 100%; /* Full width */
   height: 100%; /* Full height */
   overflow: auto; /* Enable scroll if needed */
-  background-color: rgb(0, 0, 0); /* Fallback color */
-  background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+  background-color: rgba(0, 0, 0, .7); /* Black w/ opacity */
 }
 
 /* Modal Content/Box */
 .modal-content {
-  background-color: #fefefe;
-  margin: 15% auto; /* 15% from the top and centered */
+  background-color: rgb(255, 255, 255);
+  margin: 5% auto; /* 15% from the top and centered */
   padding: 20px;
-  border: 1px solid #888;
-  width: 80%; /* Could be more or less, depending on screen size */
+  border-radius: 5px;
+  width: 250px;
+  height: 200px;
 }
 
 /* The Close Button */
 .close {
-  color: #aaa;
+  color: rgb(0, 0, 0);
   float: right;
   font-size: 28px;
   font-weight: bold;
